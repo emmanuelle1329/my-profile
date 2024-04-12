@@ -106,4 +106,22 @@ a:hover {
 	margin: 5px;
 	box-shadow: 0px 5px 10px;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 } 
+
+.card-content > h2, h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.imgs{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px;
+	
+}
